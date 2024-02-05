@@ -32,11 +32,7 @@ Configure the project settings and connect it to your version control repository
 
 ## Step 2: Configuring CI Pipeline
 
-Create a new CI pipeline in Azure DevOps.
-Configure the pipeline to trigger on code changes.
-Specify build steps, including restoring dependencies, building the solution, and running tests.
-the build, restore, test and publish of you code will be run as soon as the CI pipeline is configure and trigger, in this project, one artifact was build, this 
-can be seen in agent job
+Create a new CI pipeline in Azure DevOps. Configure the pipeline to trigger on code changes. Specify build steps, including restoring dependencies, building the solution, and running tests. the build, restore, test and publish of you code will be run as soon as the CI pipeline is configured and trigger, in this project, one artifact was built, this can be seen in agent job
 
 ![image](https://github.com/akpatiudo/dotnetdevops/assets/118566096/96700061-432d-4d56-acef-8329f60a244f)
 
